@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transit Public Dashboard</title>
+    <!-- Tailwind CSS untuk Tampilan Modern -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Plotly JS untuk Grafik -->
+    <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .card { background-color: #1e293b; border: 1px solid #334155; border-radius: 0.5rem; padding: 1.5rem; }
+    </style>
+</head>
+<body class="p-6 md:p-10">
+
+    <div class="max-w-7xl mx-auto">
+        <!-- Header & Dropdown -->
+        <div class="flex flex-col md:flex-row justify-between items-center mb-8 border-b border-slate-700 pb-4">
+            <div>
+                <h1 class="text-3xl font-bold text-sky-400">🚇 Transit Executive Dashboard</h1>
+                <p class="text-slate-400 mt-1">Ringkasan Performa Operasional Jaringan & Keluhan (Data Bulanan)</p>
+            </div>
+            <div class="mt-4 md:mt-0 flex items-center">
+                <label for="monthSelect" class="block text-sm text-slate-400 mr-3">Pilih Data Bulan:</label>
+                <!-- TAMBAHKAN NAMA FILE JSON ANDA DI SINI SESUAI DENGAN YANG ANDA DOWNLOAD -->
+                <select id="monthSelect" class="bg-slate-800 border border-slate-600 text-white rounded p-2 focus:outline-none focus:border-sky-500 font-bold">
+                    <option value="Data_September_2026.json">September 2026</option>
+                    <option value="Data_Oktober_2026.json">Oktober 2026</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- System Message -->
+        <div id="loadingMsg" class="text-center text-sky-400 text-xl font-bold py-10 animate-pulse">Mengambil Data...</div>
+        <div id="errorMsg" class="hidden text-center text-rose-500 text-xl font-bold py-10">
+            Gagal memuat data! <br><span class="text-sm text-slate-400 font-normal">Pastikan nama file JSON di Dropdown sama persis dengan yang Anda upload di Github.</span>
+        </div>
+
+        <!-- Konten Utama -->
+        <div id="dashboardContent" class="hidden">
+            
+            <h2 id="lblBulan" class="text-2xl font-bold mb-6 text-white border-l-4 border-sky-400 pl-3">Data: -</h2>
+
+            <!-- Metrik Puncak (Cards) -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+                <div class="card border-l-4 border-emerald-500 shadow-lg">
+                    <h3 class="text-slate-400 text-sm font-semibold uppercase tracking-wider">Total Prime Routes Aktif</h3>
+                    <p id="met_routes" class="text-3xl font-bold mt-2 text-emerald-400">0</p>
+                </div>
+                <div class="card border-l-4 border-rose-500 shadow-lg">
+                    <h3 class="text-slate-400 text-sm font-semibold uppercase tracking-wider">Anomali: Transit Only</h3>
+                    <p id="met_transit" class="text-3xl font-bold mt-2 text-rose-400">0</p>
+                </div>
+                <div class="card border-l-4 border-rose-500 shadow-lg">
+                    <h3 class="text-slate-400 text-sm font-semibold uppercase tracking-wider">Anomali: GTFS Only</h3>
+                    <p id="met_gtfs" class="text-3xl font-bold mt-2 text-rose-400">0</p>
+                </div>
+                <div class="card border-l-4 border-amber-500 shadow-lg">
+                    <h3 class="text-slate-400 text-sm font-semibold uppercase tracking-wider">Unused Trips (Sebulan)</h3>
+                    <p id="met_unused" class="text-3xl font-bold mt-2 text-amber-400">0</p>
+                </div>
+            </div>
+
+            <!-- Grafik Analisis Keseluruhan Jaringan -->
+            <div class="card mb-8 shadow-lg">
+                <h3 class="text-xl font-bold mb-2">Tren Produksi Trip Harian & Keluhan Jaringan</h3>
+                <p class="text-sm text-slate-400 mb-4">Grafik ini merangkum total pergerakan bus dari seluruh rute yang beroperasi.</p>
+                <div id="trendChart" style="width:100%; height:400px;"></div>
+            </div>
+
+            <!-- Bagian Bawah: Top Halte & Prime Trips Tabel -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="card shadow-lg">
+                    <h3 class="text-xl font-bold mb-4">Top 15 Halte Paling Padat</h3>
+                    <div id="halteChart" style="width:100%; height:450px;"></div>
+                </div>
+                
+                <div class="card shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">Daftar Prime Trips</h3>
+                    <p class="text-sm text-slate-400 mb-4">Waktu tempuh merupakan rata-rata yang diambil secara eksklusif pada jam <b>Peak Pagi & Sore</b> (menghindari bias waktu sepi).</p>
+                    <div class="overflow-y-auto" style="height: 400px;">
+                        <table class="w-full text-left border-collapse text-sm">
+                            <thead class="sticky top-0 bg-slate-800 text-slate-300 shadow-md">
+                                <tr>
+                                    <th class="p-3 border-b border-slate-600 font-semibold">Route ID</th>
+                                    <th class="p-3 border-b border-slate-600 font-semibold">Trip ID</th>
+                                    <th class="p-3 border-b border-slate-600 font-semibold text-right">Avg Time (Peak Hour)</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableBody" class="text-slate-300">
+                                <!-- Baris tabel disuntikkan secara dinamis -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script Utama (Logic JavaScript) -->
+    <script>
+        const monthSelect = document.getElementById('monthSelect');
+        const loadingMsg = document.getElementById('loadingMsg');
+        const errorMsg = document.getElementById('errorMsg');
+        const dashboardContent = document.getElementById('dashboardContent');
+
+        async function loadData(filename) {
+            loadingMsg.classList.remove('hidden');
+            errorMsg.classList.add('hidden');
+            dashboardContent.classList.add('hidden');
+
+            try {
+                // Proses Tarik Data JSON 
+                const response = await fetch(filename);
+                if (!response.ok) throw new Error("Gagal mengambil file JSON");
+                const data = await response.json();
+
+                renderDashboard(data);
+                
+                loadingMsg.classList.add('hidden');
+                dashboardContent.classList.remove('hidden');
+            } catch (error) {
+                console.error("Kesalahan Jaringan/File:", error);
+                loadingMsg.classList.add('hidden');
+                errorMsg.classList.remove('hidden');
+            }
+        }
+
+        function renderDashboard(data) {
+            // 1. Suntik Angka Metrik Eksekutif
+            document.getElementById('lblBulan').innerText = "Rangkuman Bulan " + data.month_label;
+            document.getElementById('met_routes').innerText = data.metrics.total_prime_routes;
+            document.getElementById('met_transit').innerText = data.metrics.transit_only;
+            document.getElementById('met_gtfs').innerText = data.metrics.gtfs_only;
+            document.getElementById('met_unused').innerText = data.metrics.unused;
+
+            // 2. Suntik Grafik Garis & Bar Plotly (Tren Harian Jaringan)
+            const dates = data.daily_trend.map(d => d.tanggal_str);
+            const trips = data.daily_trend.map(d => d.total_trip);
+            const komplain = data.daily_trend.map(d => d.komplain);
+
+            const traceTrips = {
+                x: dates, y: trips,
+                name: 'Total Kumulatif Trip Harian', type: 'scatter', mode: 'lines+markers',
+                line: {color: '#2ecc71', width: 3},
+                hovertemplate: '%{y} Trip<extra></extra>'
+            };
+            const traceKomplain = {
+                x: dates, y: komplain,
+                name: 'Komplain Pelanggan', type: 'bar', 
+                marker: {color: 'rgba(231, 76, 60, 0.8)'},
+                yaxis: 'y2',
+                hovertemplate: '%{y} Keluhan<extra></extra>'
+            };
+
+            const maxKomp = Math.max(...komplain);
+            const y2Max = maxKomp > 0 ? maxKomp + 2 : 5;
+
+            const layoutTrend = {
+                paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)', font: {color: '#cbd5e1'},
+                margin: {l: 50, r: 50, t: 20, b: 40},
+                xaxis: { showgrid: false, type: 'category' },
+                yaxis: { title: 'Jumlah Trip (Kumulatif)', gridcolor: '#334155', rangemode: 'tozero' },
+                yaxis2: { 
+                    title: 'Jumlah Komplain', overlaying: 'y', side: 'right', 
+                    showgrid: false, dtick: 1, range: [0, y2Max], rangemode: 'tozero' 
+                },
+                legend: { orientation: 'h', y: 1.1, x: 0.5, xanchor: 'center' },
+                hovermode: "x unified"
+            };
+            Plotly.newPlot('trendChart', [traceTrips, traceKomplain], layoutTrend, {responsive: true});
+
+            // 3. Suntik Grafik Batang Horizontal (Top Halte)
+            const topStops = data.top_stops.slice(0, 15).reverse(); 
+            const stopNames = topStops.map(s => s.name);
+            const stopCounts = topStops.map(s => s.count);
+
+            const traceStops = {
+                x: stopCounts, y: stopNames,
+                type: 'bar', orientation: 'h', 
+                marker: {
+                    color: stopCounts,
+                    colorscale: 'Blues', 
+                    reversescale: true
+                },
+                hovertemplate: '%{y}: %{x} Trip<extra></extra>'
+            };
+            const layoutStops = {
+                paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)', font: {color: '#cbd5e1'},
+                margin: {l: 150, r: 20, t: 10, b: 40},
+                xaxis: { title: 'Intensitas Kedatangan Bus', gridcolor: '#334155' },
+                yaxis: { automargin: true }
+            };
+            Plotly.newPlot('halteChart', [traceStops], layoutStops, {responsive: true});
+
+            // 4. Suntik Tabel Prime Trips
+            const tableBody = document.getElementById('tableBody');
+            tableBody.innerHTML = '';
+            data.prime_trips.forEach(trip => {
+                const tr = document.createElement('tr');
+                tr.className = "hover:bg-slate-700 transition duration-150";
+                
+                // Format Waktu ke Jam & Menit agar lebih indah dibaca
+                let timeStr = '-';
+                if (trip.Avg_Mins_Peak > 0) {
+                    const mins = trip.Avg_Mins_Peak;
+                    const h = Math.floor(mins / 60);
+                    const m = Math.floor(mins % 60);
+                    timeStr = h > 0 ? `${h} jam ${m} mnt` : `${m} mnt`;
+                }
+
+                tr.innerHTML = `
+                    <td class="p-3 border-b border-slate-700 font-bold text-sky-400">${trip.Route_ID}</td>
+                    <td class="p-3 border-b border-slate-700 tracking-wide">${trip.Trip_ID}</td>
+                    <td class="p-3 border-b border-slate-700 text-right text-emerald-400 font-semibold">${timeStr}</td>
+                `;
+                tableBody.appendChild(tr);
+            });
+        }
+
+        // Panggil sistem pertama kali halaman dibuka (otomatis baca pilihan pertama)
+        loadData(monthSelect.value);
+
+        // Pasang sensor, kalau opsi di Dropdown dipilih, load file JSON yang bersangkutan
+        monthSelect.addEventListener('change', function() {
+            loadData(this.value);
+        });
+    </script>
+</body>
+</html>
