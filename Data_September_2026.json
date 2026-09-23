@@ -1,0 +1,1705 @@
+{
+    "month_label": "September 2026",
+    "metrics": {
+        "transit_only": 66,
+        "gtfs_only": 261,
+        "unused": 84,
+        "total_prime_routes": 253
+    },
+    "daily_trend": [
+        {
+            "tanggal_str": "2026-09-01",
+            "total_trip": 15796,
+            "komplain": 23
+        },
+        {
+            "tanggal_str": "2026-09-02",
+            "total_trip": 15811,
+            "komplain": 43
+        },
+        {
+            "tanggal_str": "2026-09-03",
+            "total_trip": 15678,
+            "komplain": 44
+        },
+        {
+            "tanggal_str": "2026-09-04",
+            "total_trip": 15595,
+            "komplain": 42
+        },
+        {
+            "tanggal_str": "2026-09-05",
+            "total_trip": 13409,
+            "komplain": 14
+        },
+        {
+            "tanggal_str": "2026-09-06",
+            "total_trip": 13312,
+            "komplain": 11
+        },
+        {
+            "tanggal_str": "2026-09-07",
+            "total_trip": 16142,
+            "komplain": 22
+        },
+        {
+            "tanggal_str": "2026-09-08",
+            "total_trip": 16062,
+            "komplain": 38
+        },
+        {
+            "tanggal_str": "2026-09-09",
+            "total_trip": 15794,
+            "komplain": 30
+        },
+        {
+            "tanggal_str": "2026-09-10",
+            "total_trip": 15390,
+            "komplain": 60
+        },
+        {
+            "tanggal_str": "2026-09-11",
+            "total_trip": 15655,
+            "komplain": 42
+        },
+        {
+            "tanggal_str": "2026-09-12",
+            "total_trip": 13295,
+            "komplain": 12
+        },
+        {
+            "tanggal_str": "2026-09-13",
+            "total_trip": 13332,
+            "komplain": 17
+        },
+        {
+            "tanggal_str": "2026-09-14",
+            "total_trip": 15689,
+            "komplain": 58
+        },
+        {
+            "tanggal_str": "2026-09-15",
+            "total_trip": 15572,
+            "komplain": 58
+        },
+        {
+            "tanggal_str": "2026-09-16",
+            "total_trip": 15617,
+            "komplain": 50
+        },
+        {
+            "tanggal_str": "2026-09-17",
+            "total_trip": 15662,
+            "komplain": 27
+        },
+        {
+            "tanggal_str": "2026-09-18",
+            "total_trip": 15774,
+            "komplain": 25
+        },
+        {
+            "tanggal_str": "2026-09-19",
+            "total_trip": 13632,
+            "komplain": 14
+        },
+        {
+            "tanggal_str": "2026-09-20",
+            "total_trip": 13284,
+            "komplain": 19
+        },
+        {
+            "tanggal_str": "2026-09-21",
+            "total_trip": 15806,
+            "komplain": 38
+        },
+        {
+            "tanggal_str": "2026-09-22",
+            "total_trip": 12777,
+            "komplain": 42
+        }
+    ],
+    "top_stops": [
+        {
+            "name": "1 Park",
+            "count": 3043
+        },
+        {
+            "name": "ABA",
+            "count": 3629
+        },
+        {
+            "name": "ACC Simatupang",
+            "count": 5998
+        },
+        {
+            "name": "ACE Hardware",
+            "count": 1318
+        },
+        {
+            "name": "ACE Hardware Kelapa Gading",
+            "count": 828
+        },
+        {
+            "name": "Acacia Residence",
+            "count": 1570
+        },
+        {
+            "name": "Ahmad Yani Bea Cukai 1",
+            "count": 2298
+        },
+        {
+            "name": "Ahmad Yani Bea Cukai 2",
+            "count": 2343
+        },
+        {
+            "name": "Akses Bawah Flyover Raya Bogor 3",
+            "count": 2734
+        },
+        {
+            "name": "Akses Bawah Flyover Slipi",
+            "count": 1861
+        },
+        {
+            "name": "Al Barkah",
+            "count": 1640
+        },
+        {
+            "name": "Al Mahbubiyah",
+            "count": 4795
+        },
+        {
+            "name": "Al Mukhlisin",
+            "count": 508
+        },
+        {
+            "name": "Al Wathoniyah 1",
+            "count": 1916
+        },
+        {
+            "name": "Al Wathoniyah 2",
+            "count": 1990
+        },
+        {
+            "name": "Aloha",
+            "count": 2322
+        },
+        {
+            "name": "Ambassador",
+            "count": 4329
+        },
+        {
+            "name": "Ampera 1",
+            "count": 11081
+        },
+        {
+            "name": "Ampera 2",
+            "count": 6689
+        },
+        {
+            "name": "Ampera 3",
+            "count": 3052
+        }
+    ],
+    "prime_trips": [
+        {
+            "Route_ID": "1",
+            "Trip_ID": "1-R08",
+            "Avg_Mins_Peak": 66.8
+        },
+        {
+            "Route_ID": "1",
+            "Trip_ID": "1-R07",
+            "Avg_Mins_Peak": 58.0
+        },
+        {
+            "Route_ID": "1A",
+            "Trip_ID": "1A-R09",
+            "Avg_Mins_Peak": 93.7
+        },
+        {
+            "Route_ID": "1A",
+            "Trip_ID": "1A-R11",
+            "Avg_Mins_Peak": 104.7
+        },
+        {
+            "Route_ID": "1B",
+            "Trip_ID": "1B-L02",
+            "Avg_Mins_Peak": 60.9
+        },
+        {
+            "Route_ID": "1C",
+            "Trip_ID": "1C-R02",
+            "Avg_Mins_Peak": 55.4
+        },
+        {
+            "Route_ID": "1C",
+            "Trip_ID": "1C-R01",
+            "Avg_Mins_Peak": 47.3
+        },
+        {
+            "Route_ID": "1E",
+            "Trip_ID": "1E-R01",
+            "Avg_Mins_Peak": 50.0
+        },
+        {
+            "Route_ID": "1E",
+            "Trip_ID": "1E-R02",
+            "Avg_Mins_Peak": 64.1
+        },
+        {
+            "Route_ID": "1F",
+            "Trip_ID": "1F-L01",
+            "Avg_Mins_Peak": 47.4
+        },
+        {
+            "Route_ID": "1H",
+            "Trip_ID": "1H-L01",
+            "Avg_Mins_Peak": 55.8
+        },
+        {
+            "Route_ID": "1K",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "1M",
+            "Trip_ID": "1M-R02",
+            "Avg_Mins_Peak": 66.0
+        },
+        {
+            "Route_ID": "1M",
+            "Trip_ID": "1M-R03",
+            "Avg_Mins_Peak": 57.5
+        },
+        {
+            "Route_ID": "1P",
+            "Trip_ID": "1P-R04",
+            "Avg_Mins_Peak": 89.6
+        },
+        {
+            "Route_ID": "1P",
+            "Trip_ID": "1P-R03",
+            "Avg_Mins_Peak": 64.2
+        },
+        {
+            "Route_ID": "1Q",
+            "Trip_ID": "1Q-R02",
+            "Avg_Mins_Peak": 57.4
+        },
+        {
+            "Route_ID": "1Q",
+            "Trip_ID": "1Q-R01",
+            "Avg_Mins_Peak": 41.6
+        },
+        {
+            "Route_ID": "1R",
+            "Trip_ID": "1R-L04",
+            "Avg_Mins_Peak": 103.5
+        },
+        {
+            "Route_ID": "1T",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "1W",
+            "Trip_ID": "1W-R01",
+            "Avg_Mins_Peak": 73.4
+        },
+        {
+            "Route_ID": "1W",
+            "Trip_ID": "1W-R02",
+            "Avg_Mins_Peak": 68.0
+        },
+        {
+            "Route_ID": "2",
+            "Trip_ID": "2-L02",
+            "Avg_Mins_Peak": 86.1
+        },
+        {
+            "Route_ID": "2A",
+            "Trip_ID": "2A-L02",
+            "Avg_Mins_Peak": 162.4
+        },
+        {
+            "Route_ID": "2B",
+            "Trip_ID": "2B-L03",
+            "Avg_Mins_Peak": 135.7
+        },
+        {
+            "Route_ID": "2F",
+            "Trip_ID": "2F-L04",
+            "Avg_Mins_Peak": 84.7
+        },
+        {
+            "Route_ID": "2H",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "2P",
+            "Trip_ID": "2P-L04",
+            "Avg_Mins_Peak": 98.4
+        },
+        {
+            "Route_ID": "2Q",
+            "Trip_ID": "2Q-L01",
+            "Avg_Mins_Peak": 44.5
+        },
+        {
+            "Route_ID": "3",
+            "Trip_ID": "3-L04",
+            "Avg_Mins_Peak": 104.5
+        },
+        {
+            "Route_ID": "3A",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "3B",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "3C",
+            "Trip_ID": "3C-L02",
+            "Avg_Mins_Peak": 50.5
+        },
+        {
+            "Route_ID": "3D",
+            "Trip_ID": "3D-L04",
+            "Avg_Mins_Peak": 84.9
+        },
+        {
+            "Route_ID": "3E",
+            "Trip_ID": "3E-R06",
+            "Avg_Mins_Peak": 84.9
+        },
+        {
+            "Route_ID": "3E",
+            "Trip_ID": "3E-R07",
+            "Avg_Mins_Peak": 76.3
+        },
+        {
+            "Route_ID": "3F",
+            "Trip_ID": "3F-L01",
+            "Avg_Mins_Peak": 125.6
+        },
+        {
+            "Route_ID": "3H",
+            "Trip_ID": "3H-R08",
+            "Avg_Mins_Peak": 39.3
+        },
+        {
+            "Route_ID": "3H",
+            "Trip_ID": "3H-R09",
+            "Avg_Mins_Peak": 51.0
+        },
+        {
+            "Route_ID": "4",
+            "Trip_ID": "4-R26",
+            "Avg_Mins_Peak": 49.3
+        },
+        {
+            "Route_ID": "4",
+            "Trip_ID": "4-R27",
+            "Avg_Mins_Peak": 52.1
+        },
+        {
+            "Route_ID": "4B",
+            "Trip_ID": "4B-R01",
+            "Avg_Mins_Peak": 80.0
+        },
+        {
+            "Route_ID": "4B",
+            "Trip_ID": "4B-R06",
+            "Avg_Mins_Peak": 88.9
+        },
+        {
+            "Route_ID": "4C",
+            "Trip_ID": "4C-L05",
+            "Avg_Mins_Peak": 142.9
+        },
+        {
+            "Route_ID": "4D",
+            "Trip_ID": "4D-L08",
+            "Avg_Mins_Peak": 124.6
+        },
+        {
+            "Route_ID": "4E",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "4F",
+            "Trip_ID": "4F-R03",
+            "Avg_Mins_Peak": 83.8
+        },
+        {
+            "Route_ID": "4F",
+            "Trip_ID": "4F-R04",
+            "Avg_Mins_Peak": 92.9
+        },
+        {
+            "Route_ID": "4K",
+            "Trip_ID": "4K-L03",
+            "Avg_Mins_Peak": 134.3
+        },
+        {
+            "Route_ID": "5",
+            "Trip_ID": "5-R01",
+            "Avg_Mins_Peak": 45.5
+        },
+        {
+            "Route_ID": "5",
+            "Trip_ID": "5-R02",
+            "Avg_Mins_Peak": 42.8
+        },
+        {
+            "Route_ID": "5B",
+            "Trip_ID": "5B-L03",
+            "Avg_Mins_Peak": 26.1
+        },
+        {
+            "Route_ID": "5C",
+            "Trip_ID": "5C-L07",
+            "Avg_Mins_Peak": 108.7
+        },
+        {
+            "Route_ID": "5F",
+            "Trip_ID": "5F-L02",
+            "Avg_Mins_Peak": 93.3
+        },
+        {
+            "Route_ID": "5M",
+            "Trip_ID": "5M-L04",
+            "Avg_Mins_Peak": 126.1
+        },
+        {
+            "Route_ID": "5N",
+            "Trip_ID": "5N-R01",
+            "Avg_Mins_Peak": 93.0
+        },
+        {
+            "Route_ID": "5N",
+            "Trip_ID": "5N-R02",
+            "Avg_Mins_Peak": 103.9
+        },
+        {
+            "Route_ID": "6",
+            "Trip_ID": "6-R04",
+            "Avg_Mins_Peak": 39.8
+        },
+        {
+            "Route_ID": "6",
+            "Trip_ID": "6-R05",
+            "Avg_Mins_Peak": 48.9
+        },
+        {
+            "Route_ID": "6A",
+            "Trip_ID": "6A-R07",
+            "Avg_Mins_Peak": 55.2
+        },
+        {
+            "Route_ID": "6A",
+            "Trip_ID": "6A-R08",
+            "Avg_Mins_Peak": 60.5
+        },
+        {
+            "Route_ID": "6B",
+            "Trip_ID": "6B-R07",
+            "Avg_Mins_Peak": 59.3
+        },
+        {
+            "Route_ID": "6B",
+            "Trip_ID": "6B-R08",
+            "Avg_Mins_Peak": 61.5
+        },
+        {
+            "Route_ID": "6C",
+            "Trip_ID": "6C-L04",
+            "Avg_Mins_Peak": 30.7
+        },
+        {
+            "Route_ID": "6D",
+            "Trip_ID": "6D-L02",
+            "Avg_Mins_Peak": 79.5
+        },
+        {
+            "Route_ID": "6H",
+            "Trip_ID": "6H-R04",
+            "Avg_Mins_Peak": 82.3
+        },
+        {
+            "Route_ID": "6H",
+            "Trip_ID": "6H-R05",
+            "Avg_Mins_Peak": 97.3
+        },
+        {
+            "Route_ID": "6K",
+            "Trip_ID": "6K-L05",
+            "Avg_Mins_Peak": 52.3
+        },
+        {
+            "Route_ID": "6M",
+            "Trip_ID": "6M-R08",
+            "Avg_Mins_Peak": 54.8
+        },
+        {
+            "Route_ID": "6M",
+            "Trip_ID": "6M-R07",
+            "Avg_Mins_Peak": 56.7
+        },
+        {
+            "Route_ID": "6N",
+            "Trip_ID": "6N-R05",
+            "Avg_Mins_Peak": 51.5
+        },
+        {
+            "Route_ID": "6N",
+            "Trip_ID": "6N-R06",
+            "Avg_Mins_Peak": 55.3
+        },
+        {
+            "Route_ID": "6P",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "6Q",
+            "Trip_ID": "6Q-L05",
+            "Avg_Mins_Peak": 48.1
+        },
+        {
+            "Route_ID": "6T",
+            "Trip_ID": "6T-L02",
+            "Avg_Mins_Peak": 123.8
+        },
+        {
+            "Route_ID": "6U",
+            "Trip_ID": "6U-R03",
+            "Avg_Mins_Peak": 58.8
+        },
+        {
+            "Route_ID": "6U",
+            "Trip_ID": "6U-R04",
+            "Avg_Mins_Peak": 52.2
+        },
+        {
+            "Route_ID": "6V",
+            "Trip_ID": "6V-L01",
+            "Avg_Mins_Peak": 122.0
+        },
+        {
+            "Route_ID": "6W",
+            "Trip_ID": "6W-L02",
+            "Avg_Mins_Peak": 101.5
+        },
+        {
+            "Route_ID": "7",
+            "Trip_ID": "7-R02",
+            "Avg_Mins_Peak": 57.6
+        },
+        {
+            "Route_ID": "7",
+            "Trip_ID": "7-R01",
+            "Avg_Mins_Peak": 50.3
+        },
+        {
+            "Route_ID": "7A",
+            "Trip_ID": "7A-L01",
+            "Avg_Mins_Peak": 127.8
+        },
+        {
+            "Route_ID": "7B",
+            "Trip_ID": "7B-R03",
+            "Avg_Mins_Peak": 78.3
+        },
+        {
+            "Route_ID": "7B",
+            "Trip_ID": "7B-R04",
+            "Avg_Mins_Peak": 76.6
+        },
+        {
+            "Route_ID": "7C",
+            "Trip_ID": "7C-L01",
+            "Avg_Mins_Peak": 71.7
+        },
+        {
+            "Route_ID": "7D",
+            "Trip_ID": "7D-L02",
+            "Avg_Mins_Peak": 85.4
+        },
+        {
+            "Route_ID": "7E",
+            "Trip_ID": "7E-R05",
+            "Avg_Mins_Peak": 47.3
+        },
+        {
+            "Route_ID": "7E",
+            "Trip_ID": "7E-R01",
+            "Avg_Mins_Peak": 33.3
+        },
+        {
+            "Route_ID": "7F",
+            "Trip_ID": "7F-L02",
+            "Avg_Mins_Peak": 164.9
+        },
+        {
+            "Route_ID": "7P",
+            "Trip_ID": "7P-L03",
+            "Avg_Mins_Peak": 86.2
+        },
+        {
+            "Route_ID": "7Q",
+            "Trip_ID": "7Q-L02",
+            "Avg_Mins_Peak": 122.9
+        },
+        {
+            "Route_ID": "7R",
+            "Trip_ID": "7R-R01",
+            "Avg_Mins_Peak": 109.5
+        },
+        {
+            "Route_ID": "7T",
+            "Trip_ID": "7T-R01",
+            "Avg_Mins_Peak": 75.5
+        },
+        {
+            "Route_ID": "7U",
+            "Trip_ID": "7U-R01",
+            "Avg_Mins_Peak": 87.0
+        },
+        {
+            "Route_ID": "7V",
+            "Trip_ID": "7V-L01",
+            "Avg_Mins_Peak": 64.2
+        },
+        {
+            "Route_ID": "7W",
+            "Trip_ID": "7W-L03",
+            "Avg_Mins_Peak": 51.7
+        },
+        {
+            "Route_ID": "8",
+            "Trip_ID": "8-R04",
+            "Avg_Mins_Peak": 82.5
+        },
+        {
+            "Route_ID": "8",
+            "Trip_ID": "8-R03",
+            "Avg_Mins_Peak": 93.7
+        },
+        {
+            "Route_ID": "8C",
+            "Trip_ID": "8C-L03",
+            "Avg_Mins_Peak": 73.0
+        },
+        {
+            "Route_ID": "8D",
+            "Trip_ID": "8D-R05",
+            "Avg_Mins_Peak": 85.5
+        },
+        {
+            "Route_ID": "8D",
+            "Trip_ID": "8D-R02",
+            "Avg_Mins_Peak": 42.8
+        },
+        {
+            "Route_ID": "8E",
+            "Trip_ID": "8E-R03",
+            "Avg_Mins_Peak": 65.6
+        },
+        {
+            "Route_ID": "8E",
+            "Trip_ID": "8E-R01",
+            "Avg_Mins_Peak": 44.5
+        },
+        {
+            "Route_ID": "8K",
+            "Trip_ID": "8K-L02",
+            "Avg_Mins_Peak": 82.6
+        },
+        {
+            "Route_ID": "8M",
+            "Trip_ID": "8M-L02",
+            "Avg_Mins_Peak": 69.1
+        },
+        {
+            "Route_ID": "8N",
+            "Trip_ID": "8N-L02",
+            "Avg_Mins_Peak": 53.9
+        },
+        {
+            "Route_ID": "9",
+            "Trip_ID": "9-R02",
+            "Avg_Mins_Peak": 92.6
+        },
+        {
+            "Route_ID": "9",
+            "Trip_ID": "9-R01",
+            "Avg_Mins_Peak": 100.9
+        },
+        {
+            "Route_ID": "9A",
+            "Trip_ID": "9A-R08",
+            "Avg_Mins_Peak": 59.6
+        },
+        {
+            "Route_ID": "9A",
+            "Trip_ID": "9A-R07",
+            "Avg_Mins_Peak": 61.3
+        },
+        {
+            "Route_ID": "9C",
+            "Trip_ID": "9C-L01",
+            "Avg_Mins_Peak": 122.3
+        },
+        {
+            "Route_ID": "9D",
+            "Trip_ID": "9D-R05",
+            "Avg_Mins_Peak": 82.5
+        },
+        {
+            "Route_ID": "9D",
+            "Trip_ID": "9D-R04",
+            "Avg_Mins_Peak": 79.9
+        },
+        {
+            "Route_ID": "9E",
+            "Trip_ID": "9E-L01",
+            "Avg_Mins_Peak": 77.6
+        },
+        {
+            "Route_ID": "9F",
+            "Trip_ID": "9F-L01",
+            "Avg_Mins_Peak": 34.2
+        },
+        {
+            "Route_ID": "9H",
+            "Trip_ID": "9H-L11",
+            "Avg_Mins_Peak": 93.5
+        },
+        {
+            "Route_ID": "9N",
+            "Trip_ID": "9N-L02",
+            "Avg_Mins_Peak": 42.1
+        },
+        {
+            "Route_ID": "10",
+            "Trip_ID": "10-R02",
+            "Avg_Mins_Peak": 59.3
+        },
+        {
+            "Route_ID": "10",
+            "Trip_ID": "10-R01",
+            "Avg_Mins_Peak": 54.8
+        },
+        {
+            "Route_ID": "10A",
+            "Trip_ID": "10A-L02",
+            "Avg_Mins_Peak": 103.5
+        },
+        {
+            "Route_ID": "10B",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "10H",
+            "Trip_ID": "10H-L04",
+            "Avg_Mins_Peak": 155.1
+        },
+        {
+            "Route_ID": "11",
+            "Trip_ID": "11-R02",
+            "Avg_Mins_Peak": 44.9
+        },
+        {
+            "Route_ID": "11",
+            "Trip_ID": "11-R03",
+            "Avg_Mins_Peak": 36.5
+        },
+        {
+            "Route_ID": "11B",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "11C",
+            "Trip_ID": "11C-L03",
+            "Avg_Mins_Peak": 39.6
+        },
+        {
+            "Route_ID": "11D",
+            "Trip_ID": "11D-R04",
+            "Avg_Mins_Peak": 51.9
+        },
+        {
+            "Route_ID": "11D",
+            "Trip_ID": "11D-R05",
+            "Avg_Mins_Peak": 55.1
+        },
+        {
+            "Route_ID": "11M",
+            "Trip_ID": "11M-L03",
+            "Avg_Mins_Peak": 131.7
+        },
+        {
+            "Route_ID": "11P",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "11Q",
+            "Trip_ID": "11Q-L04",
+            "Avg_Mins_Peak": 110.6
+        },
+        {
+            "Route_ID": "11R",
+            "Trip_ID": "11R-L01",
+            "Avg_Mins_Peak": 80.6
+        },
+        {
+            "Route_ID": "11W",
+            "Trip_ID": "11W-L02",
+            "Avg_Mins_Peak": 65.6
+        },
+        {
+            "Route_ID": "12",
+            "Trip_ID": "12-R02",
+            "Avg_Mins_Peak": 80.6
+        },
+        {
+            "Route_ID": "12",
+            "Trip_ID": "12-R01",
+            "Avg_Mins_Peak": 72.8
+        },
+        {
+            "Route_ID": "12A",
+            "Trip_ID": "12A-L02",
+            "Avg_Mins_Peak": 90.6
+        },
+        {
+            "Route_ID": "12B",
+            "Trip_ID": "12B-R03",
+            "Avg_Mins_Peak": 66.2
+        },
+        {
+            "Route_ID": "12B",
+            "Trip_ID": "12B-R04",
+            "Avg_Mins_Peak": 85.0
+        },
+        {
+            "Route_ID": "12C",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "12F",
+            "Trip_ID": "12F-L02",
+            "Avg_Mins_Peak": 189.5
+        },
+        {
+            "Route_ID": "12H",
+            "Trip_ID": "12H-L02",
+            "Avg_Mins_Peak": 34.8
+        },
+        {
+            "Route_ID": "12P",
+            "Trip_ID": "12P-R01",
+            "Avg_Mins_Peak": 47.3
+        },
+        {
+            "Route_ID": "12P",
+            "Trip_ID": "12P-R02",
+            "Avg_Mins_Peak": 45.3
+        },
+        {
+            "Route_ID": "13",
+            "Trip_ID": "13-L01",
+            "Avg_Mins_Peak": 90.2
+        },
+        {
+            "Route_ID": "13B",
+            "Trip_ID": "13B-L01",
+            "Avg_Mins_Peak": 91.0
+        },
+        {
+            "Route_ID": "13E",
+            "Trip_ID": "13E-L01",
+            "Avg_Mins_Peak": 108.2
+        },
+        {
+            "Route_ID": "14",
+            "Trip_ID": "14-L04",
+            "Avg_Mins_Peak": 72.7
+        },
+        {
+            "Route_ID": "14A",
+            "Trip_ID": "14A-L02",
+            "Avg_Mins_Peak": 72.2
+        },
+        {
+            "Route_ID": "14B",
+            "Trip_ID": "14B-L02",
+            "Avg_Mins_Peak": 110.7
+        },
+        {
+            "Route_ID": "51ST",
+            "Trip_ID": "51ST-L01",
+            "Avg_Mins_Peak": 92.0
+        },
+        {
+            "Route_ID": "ASG1",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "ASG2",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "ASG3",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "ASG4",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "ASG5",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "ASG6",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "B11",
+            "Trip_ID": "B11-L07",
+            "Avg_Mins_Peak": 134.6
+        },
+        {
+            "Route_ID": "B13",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "B14",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "B21",
+            "Trip_ID": "B21-L06",
+            "Avg_Mins_Peak": 144.7
+        },
+        {
+            "Route_ID": "B25",
+            "Trip_ID": "B25-L05",
+            "Avg_Mins_Peak": 173.2
+        },
+        {
+            "Route_ID": "B41",
+            "Trip_ID": "B41-L03",
+            "Avg_Mins_Peak": 128.3
+        },
+        {
+            "Route_ID": "B51",
+            "Trip_ID": "B51-L01",
+            "Avg_Mins_Peak": 225.2
+        },
+        {
+            "Route_ID": "BW1",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "BW2",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "BW4",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "D11",
+            "Trip_ID": "D11-L07",
+            "Avg_Mins_Peak": 178.8
+        },
+        {
+            "Route_ID": "D21",
+            "Trip_ID": "D21-L01",
+            "Avg_Mins_Peak": 134.3
+        },
+        {
+            "Route_ID": "D31",
+            "Trip_ID": "D31-R03",
+            "Avg_Mins_Peak": 262.5
+        },
+        {
+            "Route_ID": "D31",
+            "Trip_ID": "D31-R02",
+            "Avg_Mins_Peak": 202.0
+        },
+        {
+            "Route_ID": "D32",
+            "Trip_ID": "D32-R01",
+            "Avg_Mins_Peak": 467.2
+        },
+        {
+            "Route_ID": "D32",
+            "Trip_ID": "D32-R02",
+            "Avg_Mins_Peak": 460.7
+        },
+        {
+            "Route_ID": "D41",
+            "Trip_ID": "D41-L01",
+            "Avg_Mins_Peak": 145.2
+        },
+        {
+            "Route_ID": "HC2",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.01",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.02",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.03",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.04",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.05",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.06",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.07",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.08",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.09",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.10",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.10A",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.10B",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.11",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.12",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.13",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.14",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.15",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.16",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.17",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.18",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.19",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.20",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.21",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.22",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.23",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.24",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.25",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.26",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.27",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.28",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.29",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.30",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.31",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.32",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.33",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.34",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.35",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.36",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.37",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.38",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.39",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.40",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.41",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.42",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.43B",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.43C",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.44",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.45",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.46",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.47",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.48A",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.49",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.50",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.51",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.52",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.53",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.54",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.56",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.58",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.59",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.60",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.61",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.64",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.71",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.72",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.73",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.74",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.75",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.76",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.77",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.78A",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.78B",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.79",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.80",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.84",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.85",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.86",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.87",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.88",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.89",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.90",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.93",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.95",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.98",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.99",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.100",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.102",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.105",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.106",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.107",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.108",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.110A",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.112",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.113",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.115",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.117",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.118",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "JAK.120",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "L13E",
+            "Trip_ID": "L13E-L07",
+            "Avg_Mins_Peak": 106.7
+        },
+        {
+            "Route_ID": "P11",
+            "Trip_ID": "P11-R01",
+            "Avg_Mins_Peak": 114.4
+        },
+        {
+            "Route_ID": "P11",
+            "Trip_ID": "P11-R02",
+            "Avg_Mins_Peak": 105.5
+        },
+        {
+            "Route_ID": "S11",
+            "Trip_ID": "S11-L05",
+            "Avg_Mins_Peak": 241.9
+        },
+        {
+            "Route_ID": "S12",
+            "Trip_ID": "S12-R06",
+            "Avg_Mins_Peak": 58.3
+        },
+        {
+            "Route_ID": "S12",
+            "Trip_ID": "S12-R05",
+            "Avg_Mins_Peak": 54.8
+        },
+        {
+            "Route_ID": "S12R",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "S14",
+            "Trip_ID": "S14-R02",
+            "Avg_Mins_Peak": 68.8
+        },
+        {
+            "Route_ID": "S14",
+            "Trip_ID": "S14-R01",
+            "Avg_Mins_Peak": 110.5
+        },
+        {
+            "Route_ID": "S14R",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "S21",
+            "Trip_ID": "S21-L05",
+            "Avg_Mins_Peak": 143.9
+        },
+        {
+            "Route_ID": "S22",
+            "Trip_ID": "S22-R05",
+            "Avg_Mins_Peak": 86.7
+        },
+        {
+            "Route_ID": "S22",
+            "Trip_ID": "S22-R06",
+            "Avg_Mins_Peak": 90.1
+        },
+        {
+            "Route_ID": "S31",
+            "Trip_ID": "S31-R01",
+            "Avg_Mins_Peak": 61.7
+        },
+        {
+            "Route_ID": "S31",
+            "Trip_ID": "S31-R02",
+            "Avg_Mins_Peak": 55.7
+        },
+        {
+            "Route_ID": "S31R",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "S61",
+            "Trip_ID": "S61-R01",
+            "Avg_Mins_Peak": 100.1
+        },
+        {
+            "Route_ID": "S61",
+            "Trip_ID": "S61-R02",
+            "Avg_Mins_Peak": 108.4
+        },
+        {
+            "Route_ID": "SAB",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "SAT",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "SH1",
+            "Trip_ID": "SH1-L02",
+            "Avg_Mins_Peak": 143.8
+        },
+        {
+            "Route_ID": "SH2",
+            "Trip_ID": "SH2-L01",
+            "Avg_Mins_Peak": 195.3
+        },
+        {
+            "Route_ID": "SOE",
+            "Trip_ID": "-",
+            "Avg_Mins_Peak": 0.0
+        },
+        {
+            "Route_ID": "T11",
+            "Trip_ID": "T11-L11",
+            "Avg_Mins_Peak": 226.0
+        },
+        {
+            "Route_ID": "T12",
+            "Trip_ID": "T12-R04",
+            "Avg_Mins_Peak": 103.3
+        },
+        {
+            "Route_ID": "T12",
+            "Trip_ID": "T12-R05",
+            "Avg_Mins_Peak": 95.5
+        },
+        {
+            "Route_ID": "T31",
+            "Trip_ID": "T31-R03",
+            "Avg_Mins_Peak": 98.7
+        },
+        {
+            "Route_ID": "T31",
+            "Trip_ID": "T31-R04",
+            "Avg_Mins_Peak": 91.6
+        }
+    ]
+}
